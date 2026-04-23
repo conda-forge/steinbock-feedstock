@@ -1,13 +1,13 @@
 {% set name = "steinbock" %}
-{% set version = "0.16.1" %}
+{% set version = "0.16.4" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/steinbock-{{ version }}.tar.gz
-  sha256: 0c1802a319255914fea00bf3c6bfde79f27ec536637e179d5f582525bfee56fe
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/steinbock-{{ version }}.tar.gz
+  sha256: 72ec65ef4baaff824b924bc2a6d55fa6eab9bf4ab4d365cbde58add55b24d08d
 
 build:
   noarch: python
